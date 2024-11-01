@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    background: lightcyan;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85%;
+}
+
+.image-content {
+    padding: 2em;
+}
+
+.image img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .container {
+      background-color: lightgreen;
+    }
+
+    .content {
+        flex-wrap: wrap;
+    }
+  }
+
+
+
